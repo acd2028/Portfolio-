@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ren — Creative Portfolio</title>
-  <style>
-    * { box-sizing: border-box; }
+<style>* { box-sizing: border-box; }
     body {
       margin: 0;
       background: #f4f1e9;
@@ -84,52 +77,85 @@
       .projects { grid-template-columns: 1fr; }
       .hero { padding: 45px 0; }
       nav { gap: 16px; }
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <a class="logo" href="#" aria-label="Ren home">ren.</a>
-    <nav aria-label="Main navigation">
-      <a href="#work">Work</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+    }</style>
+<header>
+  <nav aria-label="Main navigation">
+    <span style="font-size: 24pt; font-family: 'courier new', courier, monospace;">My Portfolio</span>
+  </nav>
+</header>
+<main>
+  <section class="hero" aria-labelledby="intro">
+    <p class="eyebrow">Geographer · Cartographer · Artist</p>
+    <h1 id="intro">Ari Creagh Dixon.</h1>
+    <p class="intro">I am a geography student at Cal Poly Humboldt in California, USA. My interests revolve around mapping human related issues, creating useful guides for the public, and creating beautiful pieces of art.</p>
+    <a href="#work">Explore selected work ↗</a>
+  </section>
+  <section id="work" aria-labelledby="work-title">
+    <h2 id="work-title">
+      <span style="font-size: 24pt;">Selected work</span>
+    </h2>
+    <div class="projects">
+      <article>
+        <h3>
+          <img src="https://share1.cloudhq-mkt3.net/eeef811ae58ce0.png" alt="" width="844" height="844">
+          <br>
+          <span style="font-size: 18pt;">Woman-Owned Breweries on the West Coast</span>
+        </h3>
+        <p>
+          <span style="font-size: 14pt;">Dixon / 2025 / GEOG 105: Human Geography
+            <br>
+          </span>The task was to analyze a spatial human topic of our choice and I decided to do the beer industry from a feminist lens. Coming from a background where beer is pretty important in many aspects of the word, I wanted to tell the story of how beer would not be its sucessful self without women and how the shift from a women dominated field became not only a male dominated fieid, but one women were banned from for centuries. As my audience were mostly from the west coast, I decided to map local breweies to additonally encourage my classmates to support local breweries.&nbsp;
+          <br>
+          <br>
+          <img src="https://share1.cloudhq-mkt3.net/634bf859a21cbc.png" alt="" width="842" height="630">
+          <br>
+        </p>
+        <h3>
+          <span style="font-size: 18pt;">Shipwreaks of Antarctica</span>
+        </h3>
+        <p>
+          <span style="font-size: 14pt;">Dixon / 2026 / GSP 316: Cartography
+            <br>
+            <span style="font-size: 12pt;">For my final in cartography, we were allowed full freedom to create a map that displays the cartographic skills we had developed over the course that semester. I chose to create a map of antartica early on due to my personal interst of the continent but narrowed down to mapping shipwreaks as they show the pattern of human travel to the continent and what physical properties, like the Drake Passage, created a challenging feat for any travelers.&nbsp; &nbsp;</span>
+          </span>
+          <br>
+          <br>
+          <img src="https://share1.cloudhq-mkt3.net/d9982d5124cdd8.png" alt="" width="840" height="836">
+          <br>
+        </p>
+        <h3>
+          <span style="font-size: 18pt;">Rivers of the Congo</span>
+        </h3>
+        <p>
+          <span style="font-size: 14pt;">Dixon / 2026 / GSP 416: Advanced Cartography
+            <br>
+            <span style="font-size: 12pt;">The aim was to create a terrain map but while many would have chosen a mountainy landscape, I went towards braided rivers. While rivers don't always show a dramatic terrian difference like a moutain region, it does display a beautiful engraved look that makes the rivers apear more like viens.&nbsp;</span>
+          </span>
+          <br>
+          <br>
+          <img src="https://share1.cloudhq-mkt3.net/42de7aa51a0175.png" alt="" width="837" height="542">
+          <br>
+        </p>
+        <h3>
+          <span style="font-size: 18pt;">Ice Concentration on the Great Lakes</span>
+        </h3>
+        <p>
+          <span style="font-size: 14pt;">Dixon / 2026 / GSP 416: Advanced Cartography
+            <br>
+            <span style="font-size: 12pt;">My class was tasked with making a isopleth map. I chose the great lakes and ice consentration because I had never really seen an ice concentration isopleth map before, mostly just heat or land cover maps. This was a fun challenge as I ad to work with realitivley old data, learn all about how lake ice concentration is categorically different to sea ice concentration, and how to make a map that can display that information with ease to my audience.&nbsp;</span>
+          </span>
+          <br>
+          <br>
+        </p>
+      </article>
+      <article>
+        <p>&nbsp;</p>
+      </article>
+    </div>
+  </section>
+  <section id="contact">
+    <h2>Let’s connect!</h2>
+    <a href="mailto:hello@example.com">acd76@humboldt.edu ↗</a>
+  </section>
+</main>
 
-  <main>
-    <section class="hero" aria-labelledby="intro">
-      <div class="circle" aria-hidden="true"></div>
-      <p class="eyebrow">Designer · Maker · Observer</p>
-      <h1 id="intro">Space for<br>what matters.</h1>
-      <p class="intro">
-        I’m Ren, a designer finding beauty in simplicity,
-        natural forms, and thoughtful everyday experiences.
-      </p>
-      <a href="#work">Explore selected work ↗</a>
-    </section>
-
-    <section id="work" aria-labelledby="work-title">
-      <h2 id="work-title">Selected work</h2>
-      <div class="projects">
-        <article>
-          <div class="art" aria-hidden="true"><div class="stone"></div></div>
-          <h3>Still Form</h3>
-          <p>Brand identity / 2026</p>
-        </article>
-        <article>
-          <div class="art sand" aria-hidden="true"></div>
-          <h3>Quiet Patterns</h3>
-          <p>Digital experience / 2026</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="contact">
-      <h2>Let’s create something thoughtful.</h2>
-      <a href="mailto:hello@example.com">hello@example.com ↗</a>
-    </section>
-  </main>
-
-  <footer>© 2026 Ren · Made with intention.</footer>
-</body>
-</html>
